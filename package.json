@@ -1,0 +1,39 @@
+{
+  "name": "dsh-web-video-presentation",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Turn scripts and articles into click-driven 16:9 web presentations, screen-recordable as cinematic videos. A native DeepSeek Harness skill plugin with 23 hand-designed themes and optional AI voiceover.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "skill",
+    "plugin",
+    "video",
+    "presentation",
+    "slides",
+    "screen-recording",
+    "text-to-video",
+    "tts",
+    "react",
+    "vite"
+  ],
+  "license": "MIT",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "assets",
+    "locale",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
