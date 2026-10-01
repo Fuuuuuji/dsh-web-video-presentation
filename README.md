@@ -35,6 +35,42 @@ Not a slide deck. A **video disguised as a webpage**:
 
 ---
 
+## Demo — a real one
+
+### I watched OpenAI DevDay 2026 with DeepSeek. This is what it thought mattered most.
+
+**Input:** one announcement page ([openai.com/index/devday-2026-recap](https://openai.com/index/devday-2026-recap/)),
+plus 20 of its linked subpages, crawled for detail.
+**Output:** a **10-chapter / 64-step / 9:49** English web video — AI voiceover, theme `bold-signal`,
+recorded in one take with `?auto=1`.
+
+<a href="https://github.com/Fuuuuuji/dsh-web-video-presentation/releases/latest"><img src="demo/preview.webp" width="100%" alt="17-second preview of the DevDay 2026 recap"/></a>
+
+<sub>17-second preview · <a href="https://github.com/Fuuuuuji/dsh-web-video-presentation/releases/latest"><b>▶ watch the full 9:49 video</b></a> (1080p, 47 MB)</sub>
+
+<table>
+  <tr>
+    <td width="50%"><img src="demo/still-00.webp" width="100%" alt="cold open"/><br/><sub><b>Cold open</b> — the whole event in one frame: 20+ announcements, and the thesis</sub></td>
+    <td width="50%"><img src="demo/still-16.webp" width="100%" alt="benchmark chart"/><br/><sub><b>Numbers, drawn honestly</b> — a zero-based chart that states its own axis</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="demo/still-29.webp" width="100%" alt="API fan diagram"/><br/><sub><b>Structure → motion</b> — one question fanning out into finite answers</sub></td>
+    <td width="50%"><img src="demo/still-44.webp" width="100%" alt="collaborative slides"/><br/><sub><b>Real product UI</b> — official key art, never a fabricated screenshot</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="demo/still-59.webp" width="100%" alt="Daybreak partner wall"/><br/><sub><b>Density when it earns it</b> — 31 partner logos, all of them whole</sub></td>
+    <td width="50%"><img src="demo/still-63.webp" width="100%" alt="closing frame"/><br/><sub><b>An ending, not a summary slide</b> — the closing beat of a 9-minute piece</sub></td>
+  </tr>
+</table>
+
+What the run actually exercised: every chapter was written by a separate worker, then attacked by an
+independent reviewer before it shipped. That loop caught a theme import-order bug that silently killed
+every theme personality knob, a chart axis that misrepresented a 6.4-point delta, a diagram drawn at
+1.27:1 contrast, and a closing progress bar that outran its own narration. Build notes:
+[`demo/NOTES.md`](demo/NOTES.md).
+
+---
+
 ## Why it's different
 
 | | |

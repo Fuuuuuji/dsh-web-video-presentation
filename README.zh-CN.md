@@ -35,6 +35,41 @@ github:Fuuuuuji/dsh-web-video-presentation
 
 ---
 
+## Demo —— 一个真实产出
+
+### 我和 DeepSeek 一起听了 OpenAI DevDay 2026，这是它觉得最核心的内容
+
+**输入**：一篇官方发布页（[openai.com/index/devday-2026-recap](https://openai.com/index/devday-2026-recap/)），
+下探并抓取 20 个关键子页面。
+**产出**：**10 章 / 64 步 / 9 分 49 秒**的英文网页视频 —— AI 口播、主题 `bold-signal`、
+用 `?auto=1` 一镜到底录制。
+
+<a href="https://github.com/Fuuuuuji/dsh-web-video-presentation/releases/latest"><img src="demo/preview.webp" width="100%" alt="DevDay 2026 recap 的 17 秒预览"/></a>
+
+<sub>17 秒预览 · <a href="https://github.com/Fuuuuuji/dsh-web-video-presentation/releases/latest"><b>▶ 看完整 9 分 49 秒视频</b></a>（1080p，47 MB）</sub>
+
+<table>
+  <tr>
+    <td width="50%"><img src="demo/still-00.webp" width="100%" alt="冷开场"/><br/><sub><b>冷开场</b> —— 一屏装下整场发布会：20+ 条公告，以及全片论点</sub></td>
+    <td width="50%"><img src="demo/still-16.webp" width="100%" alt="跑分图"/><br/><sub><b>数字要诚实</b> —— 从 0 起算的坐标轴，并且自己标注了刻度</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="demo/still-29.webp" width="100%" alt="API 扇形图"/><br/><sub><b>结构 → 动作</b> —— 一个问题扇出成有限个既定答案</sub></td>
+    <td width="50%"><img src="demo/still-44.webp" width="100%" alt="协作幻灯片"/><br/><sub><b>真素材</b> —— 全部用官方发布图，没有一张假截图</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="demo/still-59.webp" width="100%" alt="Daybreak 合作方墙"/><br/><sub><b>该密就密</b> —— 31 个合作方 logo，一个都没被裁掉</sub></td>
+    <td width="50%"><img src="demo/still-63.webp" width="100%" alt="收尾帧"/><br/><sub><b>是结尾，不是总结页</b> —— 9 分钟片子的最后一个落点</sub></td>
+  </tr>
+</table>
+
+这一轮实际跑通的东西：每一章由独立 worker 实现，再交给另一个独立 reviewer 对抗式审查后才算过。
+这个回路抓出了「主题 import 顺序把主题人格参数全部覆盖」的隐蔽 bug、把 6.4 个百分点画成 13% 的
+图表坐标轴、对比度只有 1.27:1 的示意图，以及一条比自己口播还长的收尾进度条。构建记录见
+[`demo/NOTES.md`](demo/NOTES.md)。
+
+---
+
 ## 为什么不一样
 
 | | |
