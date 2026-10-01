@@ -1,5 +1,7 @@
 # Demo build notes — DevDay 2026 Recap
 
+<img src="poster.webp" width="100%" alt="DevDay 2026 Recap — title frame"/>
+
 > 中文见下方 [中文](#中文说明)。
 >
 > **I watched OpenAI DevDay 2026 with DeepSeek. This is what it thought mattered most.**
