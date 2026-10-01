@@ -61,7 +61,7 @@ my-video/
 
 | 阶段 | 必读（每次都看） | 按需查 |
 |---|---|---|
-| Phase 1.2 内容编写 | `references/SCRIPT-STYLE.md` + `references/OUTLINE-FORMAT.md` + `article.md`（如有） | —— |
+| Phase 1.2 内容编写 | `references/SCRIPT-STYLE.md`（**英文内容改读 `references/SCRIPT-STYLE-EN.md`**）+ `references/OUTLINE-FORMAT.md` + `article.md`（如有） | —— |
 | Checkpoint Plan 选主题 | `references/THEME-INDEX.md`（读这一份，别读 23 个 theme.json） | `references/THEMES.md`（自创主题时） |
 | Phase 2.1 脚手架 | 本文件 2.1 节 | —— |
 | Phase 2.4 实现单章（×N） | **`references/CHAPTER-CRAFT.md` 单一入口** + 当前主题 `themes/<id>/theme.json` + outline 本章段落 + `article.md` 本章段落 | `references/EXAMPLES/`（卡壳看结构，不照搬） |
